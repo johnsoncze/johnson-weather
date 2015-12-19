@@ -1,0 +1,15 @@
+{
+  "name": "johnson-weather",
+  "version": "1.0.0",
+  "description": "Weather service for slack",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jan Pavlovsky",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "request": "^2.67.0"
+  }
+}
