@@ -4,9 +4,17 @@
   "description": "Weather service for slack",
   "main": "index.coffee",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "coffee index.coffee"
   },
   "author": "Jan Pavlovsky",
+  "engines": {
+    "node": "0.12.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnsoncze/johnson-weather.git"
+  },
   "license": "ISC",
   "dependencies": {
     "express": "^4.13.3",
